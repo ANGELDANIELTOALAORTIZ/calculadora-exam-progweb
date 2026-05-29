@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora API</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f3e8ff;  /* lila claro */
+    }
+    .formulario {
+      background-color: #ffffff;
+      border: 1px solid #d8b4fe;  /* morado claro */
+      border-radius: 8px;
+      padding: 25px;
+      width: 350px;
+      box-shadow: 0 2px 5px rgba(139, 92, 246, 0.1);
+    }
+    h2 {
+      color: #7c3aed;  /* morado medio */
+      margin-top: 0;
+      text-align: center;
+    }
+    label {
+      font-weight: 600;
+      color: #5b21b6;  /* morado oscuro */
+      display: block;
+      margin-top: 12px;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #d8b4fe;
+      border-radius: 5px;
+      background-color: #faf5ff;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 20px;
+      background-color: #8b5cf6;  /* morado */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #7c3aed;
+    }
+    .error {
+      color: #b91c1c;  /* rojo oscuro */
+      font-weight: bold;
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #fee2e2;
+      border: 1px solid #fca5a5;
+      border-radius: 5px;
+    }
+    .resultado {
+      color: #15803d;  /* verde */
+      font-weight: bold;
+      margin-top: 15px;
+      font-size: 1.2em;
+      text-align: center;
+      padding: 10px;
+      background-color: #dcfce7;
+      border: 1px solid #86efac;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
